@@ -39,7 +39,8 @@ class RAGState(TypedDict):
 # Keyword list for mock mode intent classification
 POLICY_KEYWORDS = [
     "delivery", "return", "refund", "membership", 
-    "tracking", "cancel", "gift card", "support hours"
+    "tracking", "cancel", "gift card", "support hours",
+    "policy", "policies"
 ]
 
 def classify_intent_node(state: RAGState) -> RAGState:
