@@ -1,0 +1,26 @@
+{
+  "policy_query": {
+    "request": {
+      "query": "What is Zepto refund policy for damaged or perishable items?"
+    },
+    "response": {
+      "answer": "Based on the retrieved context: Grocery and perishable items may be reported for a return within 24 hours of delivery if damaged, spoiled, or incorrect; non-perishable packaged items may be returned within 7 days of delivery in unop",
+      "sources": [
+        "doc_02",
+        "doc_06",
+        "doc_05"
+      ],
+      "confidence": 1.0
+    }
+  },
+  "general_query": {
+    "request": {
+      "query": "What is the capital of France?"
+    },
+    "response": {
+      "answer": "I can only answer questions about Zepto policies right now.",
+      "sources": [],
+      "confidence": 1.0
+    }
+  }
+}
