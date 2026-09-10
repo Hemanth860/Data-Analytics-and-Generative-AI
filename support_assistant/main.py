@@ -1,6 +1,6 @@
 """
 FastAPI Application for Zepto GenAI Support Assistant (/support_assistant/main.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 Provides REST API endpoints:
 - POST /ask: Accepts {"query": str} and returns PolicyResponse JSON schema.

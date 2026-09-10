@@ -1,7 +1,6 @@
 # Module 1: Data Engineering Pipeline (`/data_pipeline`)
 
-**Module Marks:** 25 Marks  
-**Author:** AI/ML Engineer (B.Tech Capstone Project)  
+**Module Marks:**   
 **Target Domain:** Catalog & Competitive Pricing Pipeline  
 
 ---
@@ -13,7 +12,7 @@ This module implements an automated **Data Engineering Pipeline** that scrapes l
 
 ## ⚙️ Baseline Currency Conversion Rate
 * **Required Fixed Rate:** `1 GBP = 105.50 INR`
-* **Note:** This is an artificial, project-defined constant for this capstone assignment (requiring no external network API or date reference). All prices in INR (`price_inr`) are calculated strictly as `price_gbp * 105.50`.
+* **Note:** This is an artificial, project-defined constant for this project architecture (requiring no external network API or date reference). All prices in INR (`price_inr`) are calculated strictly as `price_gbp * 105.50`.
 
 ---
 

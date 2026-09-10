@@ -1,6 +1,6 @@
 """
 Unit tests for Module 1 Data Pipeline (/data_pipeline/test_pipeline.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 """
 
 import os

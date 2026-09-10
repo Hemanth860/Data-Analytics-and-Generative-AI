@@ -1,6 +1,6 @@
 """
 Zepto Data & AI Platform - Module 1: Data Pipeline (/data_pipeline/pipeline.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This script performs an end-to-end Data Engineering pipeline:
 1. Web Scraping: Scrapes book catalog data from books.toscrape.com across multiple categories.

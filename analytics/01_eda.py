@@ -1,6 +1,6 @@
 """
 Zepto Data & AI Platform - Module 2: Analytics Pipeline Part A (/analytics/01_eda.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This script performs Part A of Module 2:
 1. Loads dataset with offline fallback (titanic.csv) and profiles it (info, describe, shape, missing percentages).

@@ -1,6 +1,6 @@
 """
 LangGraph Orchestrated RAG Engine (/support_assistant/rag_engine.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This module implements a 3-node LangGraph StateGraph with conditional intent routing:
 1. classify_intent: Keyword heuristic intent classification (policy_question vs general_question).

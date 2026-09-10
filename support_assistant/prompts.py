@@ -1,6 +1,6 @@
 """
 Structured Prompt Template for GenAI Support Assistant (/support_assistant/prompts.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This module defines the structured prompt template following the required:
 - Role (Zepto AI Customer Support Specialist)

@@ -1,4 +1,4 @@
-# Consolidated Project Requirements for Zepto Data & AI Platform Capstone
+# Consolidated Project Requirements for Zepto Data & AI Platform project
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 pandas>=2.0.0

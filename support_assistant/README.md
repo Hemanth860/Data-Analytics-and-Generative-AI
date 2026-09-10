@@ -1,7 +1,6 @@
 # Module 3: GenAI Policy Support Assistant (`/support_assistant`)
 
-**Module Marks:** 25 Marks  
-**Author:** AI/ML Engineer (B.Tech Capstone Project)  
+**Module Marks:**   
 **Target Domain:** Grounded RAG (Retrieval-Augmented Generation) & FastAPI Service  
 
 ---

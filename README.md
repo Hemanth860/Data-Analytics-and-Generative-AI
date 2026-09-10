@@ -1,17 +1,15 @@
-# Zepto Data & AI Platform — Capstone Project Submission
+# Zepto Data & AI Platform
 
-**Course:** Certificate Program in AI and Machine Learning  
-**Author:** AI/ML Engineer (B.Tech Capstone Submission)  
-**Submission Repository:** Single Unified GitHub Repository  
+**Author:** Kammari Hemanth Kumar Achari  
 
 ---
 
 ## 📌 Executive Summary
 The **Zepto Data & AI Platform** is an end-to-end engineered AI/ML platform bringing together three interconnected capabilities into one repository:
 
-1. **`/data_pipeline` (25 Marks):** Data engineering pipeline that scrapes product catalog data from [books.toscrape.com](http://books.toscrape.com/), cleans & standardizes fields, converts prices using a fixed baseline exchange rate (`1 GBP = 105.50 INR`), and loads data into a normalized SQLite relational database (`zepto_store.db`).
-2. **`/analytics` (50 Marks):** Analytics pipeline profiling the Titanic dataset, applying threshold-based missing value rules, univariate/bivariate EDA, 6x6 correlation matrix, 4 multivariate data story charts, and training/evaluating scikit-learn ML classification & regression models with train-only preprocessing pipeline and joblib export.
-3. **`/support_assistant` (25 Marks):** Grounded GenAI Support Assistant using 8 official Zepto policy documents, `sentence-transformers` embeddings (`all-MiniLM-L6-v2`), `ChromaDB` vector store, a 3-node **LangGraph StateGraph** router, Pydantic response validation, FastAPI REST service (`POST /ask`), Streamlit UI, and Docker containerization.
+1. **`/data_pipeline`:** Data engineering pipeline that scrapes product catalog data from [books.toscrape.com](http://books.toscrape.com/), cleans & standardizes fields, converts prices using a fixed baseline exchange rate (`1 GBP = 105.50 INR`), and loads data into a normalized SQLite relational database (`zepto_store.db`).
+2. **`/analytics`:** Analytics pipeline profiling customer/order datasets, applying threshold-based missing value rules, univariate/bivariate EDA, 6x6 correlation matrix, 4 multivariate data story charts, and training/evaluating scikit-learn ML classification & regression models with train-only preprocessing pipeline and joblib export.
+3. **`/support_assistant`:** Grounded GenAI Support Assistant using 8 official Zepto policy documents, `sentence-transformers` embeddings (`all-MiniLM-L6-v2`), `ChromaDB` vector store, a 3-node **LangGraph StateGraph** router, Pydantic response validation, FastAPI REST service (`POST /ask`), Streamlit UI, and Docker containerization.
 
 ---
 
@@ -21,13 +19,13 @@ The **Zepto Data & AI Platform** is an end-to-end engineered AI/ML platform brin
 zepto-data-ai-platform/
 ├── README.md                          # Root project README (Setup, execution, design rationale)
 ├── requirements.txt                   # Consolidated dependencies file
-├── data_pipeline/                    # Module 1 (25 Marks)
+├── data_pipeline/                    # Module 1 
 │   ├── README.md                      # Pipeline design & fixed rate baseline note
 │   ├── pipeline.py                    # Scraper, ETL, SQLite schema load & 5 SQL queries
 │   ├── data_pipeline.ipynb            # Interactive notebook version
 │   ├── test_pipeline.py               # Unit tests (100% pass)
 │   └── zepto_store.db                 # SQLite relational database
-├── analytics/                         # Module 2 (50 Marks)
+├── analytics/                         # Module 2 
 │   ├── README.md                      # Detailed EDA notes, metrics tables & recommendation
 │   ├── 01_eda.py                      # Profiling, missing value rules, univariate/bivariate EDA
 │   ├── 01_eda.ipynb                   # Part A Notebook
@@ -36,7 +34,7 @@ zepto-data-ai-platform/
 │   ├── titanic.csv                    # Committed offline fallback dataset
 │   ├── titanic_pipeline.joblib        # Complete fitted pipeline artifact
 │   └── artifacts/                     # Generated charts & decision tree plot
-└── support_assistant/                 # Module 3 (25 Marks)
+└── support_assistant/                 # Module 3 
     ├── README.md                      # RAG architecture, node descriptions & transcripts
     ├── Dockerfile                     # Docker configuration (port 7860)
     ├── main.py                        # FastAPI application (POST /ask)
@@ -115,9 +113,9 @@ docker run -p 7860:7860 -e MOCK_LLM=1 zepto-support-assistant
 
 ---
 
-## 🌿 Git Branching Workflow & Rubric Verification
+## 🌿 Git Branching & Version Control Workflow
 
-As required by the grading rubric, the Git commit history of this single repository demonstrates a feature-branch workflow:
+The Git commit history of this single repository demonstrates a standard production feature-branch workflow:
 1. Repository initialized on `main` branch.
 2. Feature branch `feature/zepto-platform-modules` created.
 3. Three separate incremental commits made on the feature branch (one per module).

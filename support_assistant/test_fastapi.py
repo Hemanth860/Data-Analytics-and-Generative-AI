@@ -1,6 +1,6 @@
 """
 Test FastAPI endpoints for Support Assistant (/support_assistant/test_fastapi.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 """
 
 import sys

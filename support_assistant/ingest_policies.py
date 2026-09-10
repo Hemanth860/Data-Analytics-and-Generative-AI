@@ -1,6 +1,6 @@
 """
 Policy Ingestion & Vector Indexing Pipeline (/support_assistant/ingest_policies.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This module loads Zepto's 8 official policy documents, embeds them using 
 open-source sentence-transformers (all-MiniLM-L6-v2), and indexes them into 

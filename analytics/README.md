@@ -1,7 +1,6 @@
 # Module 2: Analytics & Predictive Modeling Pipeline (`/analytics`)
 
-**Module Marks:** 50 Marks  
-**Author:** AI/ML Engineer (B.Tech Capstone Project)  
+**Module Marks:**   
 **Target Domain:** Exploratory Data Analysis, Feature Engineering & Machine Learning  
 
 ---

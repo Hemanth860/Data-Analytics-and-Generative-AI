@@ -1,6 +1,6 @@
 """
 Streamlit Web UI for Zepto GenAI Policy Assistant (/support_assistant/ui.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 """
 
 import sys
@@ -23,7 +23,7 @@ Welcome to **Zepto's AI Customer Support Portal**. Ask any question regarding Ze
 """)
 
 st.sidebar.header("⚙️ Configuration & Info")
-st.sidebar.markdown("**Mode:** Graded Offline Mock Baseline (`MOCK_LLM=1`)")
+st.sidebar.markdown("**Mode:** Offline Rule-Based RAG Engine (`MOCK_LLM=1`)")
 st.sidebar.markdown("**Vector Store:** ChromaDB (`zepto_policies`)")
 st.sidebar.markdown("**Embedding Model:** `all-MiniLM-L6-v2`")
 st.sidebar.markdown("**Corpus:** 8 Grounded Zepto Policy Documents")

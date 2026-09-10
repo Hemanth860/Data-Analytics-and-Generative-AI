@@ -1,6 +1,6 @@
 """
 Zepto Data & AI Platform - Module 2: Predictive Modeling Part B (/analytics/02_modeling.py)
-Author: AI/ML Engineer (B.Tech Capstone Project)
+Author: Kammari Hemanth Kumar Achari
 
 This script performs Part B of Module 2:
 1. Loads titanic.csv dataset and performs a Stratified Train/Test split on target 'survived'.
