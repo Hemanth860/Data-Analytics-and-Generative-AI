@@ -1,4 +1,4 @@
-# Zepto Data & AI Platform
+# Data Analytics & AI Platform
 
 **Author:** Kammari Hemanth Kumar Achari  
 
